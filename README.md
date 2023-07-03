@@ -6,6 +6,7 @@ contains the dataset processing, model construct and training, model quantizatio
 ## config
 ## dataset
   tfrecord_data.py 
+  
     ```
     class TFrecordData():
       def __init__(tfr_dir, ...)
@@ -16,12 +17,14 @@ contains the dataset processing, model construct and training, model quantizatio
     ```
     
   data_generator.py
+  
     ```
     def get_datagenerator()
 
     
     ```
   data_augument.py
+  
   ```
   def keras_aug():
 
